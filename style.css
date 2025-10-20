@@ -1,4 +1,59 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  height: 4rem;
+  background-color: #333;
+  color: whitesmoke;
+}
+.header img {
+  height: 4rem;
+}
+.main {
+  margin-top: 2rem;
+  display: flex;
+  flex-grow: 1;
+}
+.barra-categoria {
+  padding: 2rem;
+}
+.barra-categoria-titulo {
+  margin-bottom: 1rem;
+}
+.barra-categoria-lista {
+  list-style-type: none;
+}
+.cards-libros {
+  width: 100%;
+  padding: 1.5rem;
+  display: flex;
+  margin: 1rem;
+  
+  
+}
+.card img {
+  width: 100%;
+  height: 20rem;
+}
+.card {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    height: auto;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  color: whitesmoke;
+  padding: 1.5rem;
 }
